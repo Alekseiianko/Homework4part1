@@ -16,9 +16,9 @@ public class MainActivity extends AppCompatActivity {
     private EditText mInputMoney;
     private EditText mInputInfo;
     private Button mBtnOk;
-    private static CheckBox mBankCardChkBx;
-    private static CheckBox mMobilePhoneChkBx;
-    private static CheckBox mCashAddressChkBx;
+    private CheckBox mBankCardChkBx;
+    private CheckBox mMobilePhoneChkBx;
+    private CheckBox mCashAddressChkBx;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    private static void resetCheckBoxes() {
+    private void resetCheckBoxes() {
         mBankCardChkBx.setChecked(false);
         mMobilePhoneChkBx.setChecked(false);
         mCashAddressChkBx.setChecked(false);
